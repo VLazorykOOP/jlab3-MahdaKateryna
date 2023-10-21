@@ -32,6 +32,20 @@ public class Main {
         }
 
 
+        System.out.println("\t\t\t Task 3");
+
+        Triad2[] triads2 = new Triad2[2];
+        triads2[0] = new Date2();
+        triads2[1] = new Time2();
+
+        for (Triad2 triad2 : triads2) {
+            triad2.displayBefore2();
+            triad2.increment2();
+            triad2.displayAfter2();
+            System.out.println();
+        }
+
+
     }
 
 
