@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Java Lab 3 \n");
@@ -16,5 +15,24 @@ public class Main {
             probation.show();
             System.out.println();
         }
+
+
+
+        System.out.println("\t\t\t Task 2");
+
+        Triad[] triads = new Triad[2];
+        triads[0] = new Date();
+        triads[1] = new Time();
+
+        for (Triad triad : triads) {
+            triad.displayBefore();
+            triad.increment();
+            triad.displayAfter();
+            System.out.println();
+        }
+
+
     }
+
+
 }
