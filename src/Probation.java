@@ -6,6 +6,7 @@ class Probation {
     protected String subject;
     protected int duration;
     protected int passingScore;
+    protected int number;
 
     public Probation(String prob, String subject, int duration, int numberOfQuestions) {
         this.prob = prob;
@@ -26,9 +27,15 @@ class Probation {
 class Test extends Probation {
 
 
-    public Test(String prob, String subject, int duration, int numberOfQuestions) {
+    public Test(String prob, String subject, int duration, int numberOfQuestions, int number) {
         super(prob, subject, duration, numberOfQuestions);
+        this.number = number;
 
+    }
+
+    public void show() {
+        super.show();
+        System.out.println("Номер тесту: " + number);
     }
 
 

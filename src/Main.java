@@ -6,7 +6,7 @@ public class Main {
 
         Probation[] probations = new Probation[3];
 
-        probations[0] = new Test("\t\tТест:","Математика", 60, 15);
+        probations[0] = new Test("\t\tТест:","Математика", 60, 15, 3);
         probations[1] = new Exam("\t\tIспит:","Фізика", 90, 20,50);
         probations[2] = new GraduationExam("\tВипускний іспит:","Історія", 120, 25, "Соціальні науки", 60);
  
